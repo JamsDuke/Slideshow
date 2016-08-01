@@ -1,18 +1,14 @@
 h1 {
-  color: lightblue;
+  color: darkblue;
 }
 
-#slideshow {
-  width: 500px;
-  height: 500px;
+body {
+  background-color: #ccc;
+}
+
+.container {
   margin: 0 auto;
-  position: relative;
-}
-
-.slide {
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  left: 0;
-  top: 0;
+  width: 80%;
+  background-color: #fff;
+  min-height: 400px;
 }
