@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
   <title>Slideshow</title>
@@ -7,7 +7,7 @@
 <body>
   <h1>Slideshow</h1>
   <div class="container">
-    <div>
+    <div class="slider">
       <ul>
         <li>
           <img src="/tps/1.png">
@@ -25,7 +25,33 @@
           <img src="/tps/5.png">
         </li>
       </ul>
+      <button class="prev"></button>
+      <button class="next"></button>
     </div>
+  </div>
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slideshow</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <h1>Slideshow</h1>
+  <div class="slider">
+  <div class="prev"><----</div>
+    <div class="images-container">
+      <img class="active" src="/tps/1.png">
+      <img src="/tps/2.png">
+      <img src="/tps/3.png">
+      <img src="/tps/4.png">
+      <img src="/tps/5.png">
+    </div>
+  <div class="next">----></div>
   </div>
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="script.js"></script>

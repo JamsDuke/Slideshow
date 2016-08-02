@@ -1,5 +1,6 @@
-h1 {
+/*h1 {
   color: darkblue;
+  text-align: center;
 }
 
 body {
@@ -8,7 +9,89 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 80%;
+  width: 55%;
   background-color: #fff;
-  min-height: 400px;
+  min-height: 500px;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  height: 500px;
+  position: relative;
+}
+
+.slider ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  width: 300%;
+  height: 100%;
+  top: 0;
+}
+
+.slider li {
+  padding: 0;
+  margin: 0;
+  width: 33.3333333%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.slider li img {
+  width 100%;
+  border: none;
+  min-height: 100%;
+}
+
+.slider button {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  top: 0;
+  bottom: 0;
+  width: 20%;
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  opacity: 0;
+  z-index: 2;
+}
+
+.slider button.prev {
+  right: 0;
+}
+
+.slider button next {
+  right: 0;
+}
+
+.slider button:hover, .slider button:active {
+  opacity: 1.0;
+}*/
+
+h1 {
+  color: tomato;
+}
+
+img {
+  height: 250px;
+  width: 500px;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.prev, .next, .images-container {
+
 }

@@ -1,14 +1,25 @@
-console.log('I work!');
+// console.log('I work!');
 
-if (counter === 0) {
-  slides.eq(counter).fadeOut();
-  counter+= 1;
-} else if (counter === slidesLen) {
-  counter = 0;
-  slides.eq(counter).fadeIn(function () {
-    slides.fadeIn();
-  });
-} else {
-  slides.eq(counter).fadeOut();
-  counter += 1;
-}
+// $(function() {
+//   var ul = $(".slider ul");
+//   var slide_count = ul.children
+// })
+
+$(document).ready(function () {
+  $.getJSON(url, function)
+  $('.prev').click(function () {
+    var activeImage = $('.active')
+    var nextImage - activeImage.prev()
+
+    activeImage.removeClass('.active')
+    nextImage.addClass('.active')
+  })
+
+  $('.next').click(function () {
+    var activeImage = $('.active')
+    var nextImage - activeImage.next()
+
+    activeImage.removeClass('.active')
+    nextImage.addClass('.active')
+  })
+})
